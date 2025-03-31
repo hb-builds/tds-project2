@@ -35,16 +35,16 @@ curl -X POST "https://your-app.vercel.app/api/" \
   -H "Content-Type: multipart/form-data" \
   -F "question=Download and unzip file abcd.zip which has a single extract.csv file inside. What is the value in the "answer" column of the CSV file?" \
   -F "file=@abcd.zip"
-Copy to clipboardErrorCopied
+
+
 The response must be a JSON object with a single text (string) field: answer that can be directly entered in the assignment. For example:
 
 {
   "answer": "1234567890"
 }
-Copy to clipboardErrorCopied
-Deploy your application
-Deploy your application to a public URL that can be accessed by anyone. You may use any platform, including Vercel.
 
+## Deploy your application
+Deploy your application to a public URL that can be accessed by anyone. You may use any platform, including Vercel.
 (If you use ngrok, ensure that it is running continuously until you get your results.)
 
 ## Share your code
