@@ -1,8 +1,8 @@
 # tds-project2
 IIT Madras : Tools in Data Science Project 2
 
-## Approach
-- Cache known answers
+## Current Approach
+- Cache known answers in answer_mapping.json
 - Prompt the chosen LLM with the context that it's answer would be interpreted as a JSON response - so obtain a clean output
 - Provide output
 
